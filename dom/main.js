@@ -51,9 +51,11 @@ console.log(ulReact);
 
 const divReact = React.createElement(
   "div",
-  { class: "post-item" },
+  { className: "post-item" },
   React.createElement("h2", { title: "học React tại F8" }, "học ReactJs"),
   React.createElement("p", null, "Học react từ cơ bản đến nâng cao")
 );
 
-console.log(divReact);
+const root = document.getElementById("root");
+///react-dom-> render UI
+ReactDOM.render(divReact, root);
