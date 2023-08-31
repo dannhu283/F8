@@ -60,4 +60,3 @@ const root = document.getElementById("root");
 ///react-dom-> render UI
 ReactDOM.render(divReact, root);
 ReactDOM.render(ulReact, root);
-ReactDOM.render(ulReact, root);
