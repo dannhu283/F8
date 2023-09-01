@@ -56,7 +56,7 @@ const divReact = React.createElement(
   React.createElement("p", null, "Học react từ cơ bản đến nâng cao")
 );
 
-const root = document.getElementById("root");
-///react-dom-> render UI
+const container = document.getElementById("root");
+///react-dom-> render UI version 17
 ReactDOM.render(divReact, root);
 ReactDOM.render(ulReact, root);
